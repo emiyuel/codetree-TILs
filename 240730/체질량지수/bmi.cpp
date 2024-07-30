@@ -9,8 +9,7 @@ int main() {
     
     b = (10000 * w)/(h * h);
 
-    cout.precision(1);
-    cout << fixed << b;
+    cout << b;
     if (b >= 25)
         cout << endl << "Obesity";
 
