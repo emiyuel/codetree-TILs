@@ -14,8 +14,10 @@ int main() {
         cout << "Good";
     else if (upper == 'C')
         cout << "Usually";
-    else
+    else if (upper == 'D')
         cout << "Effort";
+    else
+        cout << "Failure";
 
     return 0;
 }
