@@ -57,7 +57,7 @@ int main() {
         else if (command == 'P')
         {   
             cin >> element;
-            // 현재 it위 위치에 식빵을 추가하고 한 칸 뒤로 이동합니다.
+            // 현재 it위 위치에 식빵을 추가합니다.
             toast.insert(it, element);
         }
         m--;
