@@ -16,10 +16,10 @@ int main() {
         n--;
     }
 
-    for (int i = 0; i < sort.size() - 2; i++)
+    for (int i = 0; i < sort.size() - 1; i++)
     {
         min = i;
-        for (int j = i + 1; j < sort.size() - 1; j++)
+        for (int j = i + 1; j < sort.size(); j++)
         {
             if (sort[min] > sort[j])
                 min = j;
