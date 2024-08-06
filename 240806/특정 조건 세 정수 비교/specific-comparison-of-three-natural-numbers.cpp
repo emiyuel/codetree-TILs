@@ -6,7 +6,7 @@ int main() {
 
     cin >> a >> b >> c;
 
-    cout << (a < b && a < c) << ' ';
+    cout << (a <= b && a <= c) << ' ';
     cout << (a == b && a == c);
         
     return 0;
