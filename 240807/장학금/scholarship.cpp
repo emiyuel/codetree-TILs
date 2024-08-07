@@ -10,9 +10,9 @@ int main() {
     if (mid >= 90)
     {
         if (final == 100 || final >= 95)
-		    cout << 10;
+		    cout << 100000;
 	    else if (final >= 90)
-		    cout << 5;
+		    cout << 50000;
 	    else
 		    cout << 0;
     }
