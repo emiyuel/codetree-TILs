@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int mid, final;
 
-	cin >> mid, final;
+	cin >> mid >> final;
     
     if (mid >= 90)
     {
