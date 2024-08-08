@@ -6,9 +6,7 @@ int main() {
 
     cin >> y;
 
-    if (!(y % 100) && (y % 400))
-        cout << "false";
-    else if (!(y % 4))
+    if ((!(y % 4) && (y % 100)) || !(y % 400))
         cout << "true";
     else
         cout << "false";
