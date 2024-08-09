@@ -10,7 +10,7 @@ int main() {
         cout << b;
     if ((b > a && a > c) || (c > a) && (a > b))
         cout << a;
-    else
+    else ((a > c && c > b) || (b > c) && (c > a))
         cout << c;
 
     return 0;
