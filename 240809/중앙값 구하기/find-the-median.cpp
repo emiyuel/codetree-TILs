@@ -8,9 +8,10 @@ int main() {
 
     if ((a > b && b > c) || (c > b) && (b > a))
         cout << b;
-    if ((b > a && a > c) || (c > a) && (a > b))
+    else if ((b > a && a > c) || (c > a) && (a > b))
         cout << a;
-    else ((a > c && c > b) || (b > c) && (c > a))
+    // if ((a > c && c > b) || (b > c) && (c > a))
+    else
         cout << c;
 
     return 0;
