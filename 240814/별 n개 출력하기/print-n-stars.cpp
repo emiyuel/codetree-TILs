@@ -7,7 +7,7 @@ int main() {
     cin >> n;
 
     int i = 0;
-    while (i < n)
+    while (i++ < n)
         cout << '*' << endl;
 
     return 0;
