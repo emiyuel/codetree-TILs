@@ -3,18 +3,14 @@ using namespace std;
 
 int main() {
     int n;
-    int a = 1;
+    int a = 3;
 
     cin >> n;
+    
     while (a <= n)
     {
-        if (a % 3 == 0)
-        {
-            cout << a << ' ';
-            a += 3;
-        }
-        else
-            a += 1;
+        cout << a << ' ';
+        a += 3;
     }
     return 0;
 }
