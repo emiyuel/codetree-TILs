@@ -9,9 +9,8 @@ int main() {
     int i = a;
     while (i <= b)
     {
-        if (!(i % 2))
-            cout << i << ' ';
-        i++;
+        cout << i << ' ';
+        i += 2;
     }
     return 0;
 }
