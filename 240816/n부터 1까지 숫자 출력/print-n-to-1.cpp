@@ -9,5 +9,6 @@ int main() {
     int i = n;
     while (i >= 1)
         cout << i-- << ' ';
+        
     return 0;
 }
