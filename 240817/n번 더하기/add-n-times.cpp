@@ -9,8 +9,8 @@ int main() {
     for (int i = 0; i < n; i++)
     {
         a += n;
-        cout << a;
+        cout << a << endl;
     }
-    
+
     return 0;
 }
