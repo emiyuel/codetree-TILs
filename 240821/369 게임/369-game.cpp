@@ -12,6 +12,8 @@ int main() {
             cout << 0 << ' ';
         else if (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)
             cout << 0 << ' ';
+        else if (i / 10 == 3 || i / 10 == 6 || i / 10 == 9)
+            cout << 0 << ' ';
         else
             cout << i << ' ';
     }
