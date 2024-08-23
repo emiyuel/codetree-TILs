@@ -9,7 +9,7 @@ int main() {
     {
         cin >> num;
 
-        if (num % 2 == 0)
+        if (num % 2 == 1)
             count++;
     }
     cout << count;
