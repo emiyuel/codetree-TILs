@@ -12,7 +12,6 @@ int main() {
         if (num % 2 == 0)
             count++;
     }
-
     cout << count;
 
     return 0;
