@@ -7,7 +7,7 @@ int main() {
 
     cin >> n;
 
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         if (i % 12 == 0)
             bath++;
